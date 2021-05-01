@@ -20,8 +20,8 @@ public class BlockInit {
             "bismuth_block", () -> new Block(AbstractBlock.Properties.create(
                     Material.IRON, MaterialColor.IRON)
                     .hardnessAndResistance(5.5F, 6.5F)
-                    .harvestTool(ToolType.PICKAXE)
-                    .harvestLevel(2)
-                    .sound(SoundType.METAL)));
+                    .harvestTool(ToolType.PICKAXE).harvestLevel(2)
+                    .sound(SoundType.METAL)
+                    .setRequiresTool()));
 
 }
