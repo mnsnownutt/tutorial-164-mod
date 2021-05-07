@@ -1,6 +1,7 @@
 package com.mnsnownutt.tutorial164mod.core.init;
 
 import com.mnsnownutt.tutorial164mod.TutorialModMod;
+import com.mnsnownutt.tutorial164mod.common.items.SpecialtyItem;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -15,6 +16,9 @@ public class ItemInit {
 
     public static final RegistryObject<Item> WRENCH = ITEMS.register(
             "wrench", () -> new Item(new Item.Properties().group(ItemGroup.MISC)));
+
+    public static final RegistryObject<SpecialtyItem> SPECIALTY_ITEM = ITEMS.register(
+            "specialty_item", () -> new SpecialtyItem(new Item.Properties().group(ItemGroup.MISC)));
 
     public static final RegistryObject<BlockItem> BISMUTH_BLOCK = ITEMS.register(
             "bismuth_block", () -> new BlockItem(BlockInit.BISMUTH_BLOCK.get(),
