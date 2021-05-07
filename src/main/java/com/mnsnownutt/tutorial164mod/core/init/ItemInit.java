@@ -20,4 +20,9 @@ public class ItemInit {
             "bismuth_block", () -> new BlockItem(BlockInit.BISMUTH_BLOCK.get(),
                     new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
 
+    public static final RegistryObject<BlockItem> LIMESTONE_BLOCK = ITEMS.register(
+            "limestone_block", () -> new BlockItem(BlockInit.LIMESTONE_BLOCK.get(),
+                    new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+
+
 }

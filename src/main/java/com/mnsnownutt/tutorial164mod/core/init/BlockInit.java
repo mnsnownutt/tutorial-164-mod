@@ -24,4 +24,12 @@ public class BlockInit {
                     .sound(SoundType.METAL)
                     .setRequiresTool()));
 
+    public static final RegistryObject<Block> LIMESTONE_BLOCK = BLOCKS.register(
+            "limestone_block", () -> new Block(AbstractBlock.Properties.create(
+                    Material.ROCK, MaterialColor.SAND)
+                    .hardnessAndResistance(2F, 4F)
+                    .harvestTool(ToolType.PICKAXE).harvestLevel(1)
+                    .sound(SoundType.STONE)
+                    .setRequiresTool()));
+
 }

@@ -1,0 +1,5 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "tutorial164mod:blocks/limestone_block"  }
+}
