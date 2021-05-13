@@ -1,5 +1,7 @@
 {
   "item.tutorial164mod.wrench": "Wrench",
+  "item.tutorial164mod.bismuth_nugget": "Bismuth Nugget",
   "block.tutorial164mod.bismuth_block": "Bismuth Block",
-  "block.tutorial164mod.limestone_block": "Limestone"
+  "block.tutorial164mod.limestone_block": "Limestone",
+  "tooltip.tutorial164mod.specialty_item.hold_shift":"\u00A79Hold left shift for more information"
 }

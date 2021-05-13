@@ -20,6 +20,9 @@ public class ItemInit {
     public static final RegistryObject<SpecialtyItem> SPECIALTY_ITEM = ITEMS.register(
             "specialty_item", () -> new SpecialtyItem(new Item.Properties().group(ItemGroup.MISC)));
 
+    public static final RegistryObject<Item> BISMUTH_NUGGET = ITEMS.register(
+            "bismuth_nugget", () -> new Item(new Item.Properties().group(ItemGroup.MISC)));
+
     public static final RegistryObject<BlockItem> BISMUTH_BLOCK = ITEMS.register(
             "bismuth_block", () -> new BlockItem(BlockInit.BISMUTH_BLOCK.get(),
                     new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
@@ -27,6 +30,5 @@ public class ItemInit {
     public static final RegistryObject<BlockItem> LIMESTONE_BLOCK = ITEMS.register(
             "limestone_block", () -> new BlockItem(BlockInit.LIMESTONE_BLOCK.get(),
                     new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
-
 
 }
